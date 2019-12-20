@@ -62,22 +62,4 @@ public class Main {
             System.out.println(message);
         }
     }
-
-//    private static  char[] decrypt(String message, int n) {
-//        char[] array = new char[message.length()];
-//        for (int i = 0; i < message.toCharArray().length; i++) {
-//            int code = message.toCharArray()[i] - n;
-//            array[i] = (char) code;
-//        }
-//        return array;
-//    }
-//
-//    private static char[] encrypt(String message, int n) {
-//        char[] array = new char[message.length()];
-//        for (int i = 0; i < message.toCharArray().length; i++) {
-//            int code = message.toCharArray()[i] + n;
-//            array[i] = (char) code;
-//        }
-//        return array;
-//    }
 }
