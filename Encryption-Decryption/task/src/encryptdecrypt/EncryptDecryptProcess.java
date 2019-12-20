@@ -13,8 +13,4 @@ public class EncryptDecryptProcess {
     public char[] processMesage(String message, int n, String alg) {
         return this.method.processMessage(message, n, alg);
     }
-
-//    public char[] decrypt(String message, int n, String alg) {
-//        return this.encryptDecryptProcess.decrypt(message, n, alg);
-//    }
 }
